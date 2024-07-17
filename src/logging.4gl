@@ -1,0 +1,3 @@
+FUNCTION logIt(l_msg STRING)
+	DISPLAY SFMT("%1: %2", CURRENT, l_msg)
+END FUNCTION
